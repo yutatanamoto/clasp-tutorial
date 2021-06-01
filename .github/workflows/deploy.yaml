@@ -39,7 +39,6 @@ jobs:
           bash .github/scripts/create_clasp_credential.sh
       - name: Push
         run: |
-          cd src
           clasp push --force
       - name: DEPLOY
         run: |
