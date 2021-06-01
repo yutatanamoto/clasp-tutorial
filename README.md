@@ -1,3 +1,2 @@
 # Clasp tutorial
 # Usage
-HogeFuga
