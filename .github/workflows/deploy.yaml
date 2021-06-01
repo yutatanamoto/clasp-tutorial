@@ -36,7 +36,7 @@ jobs:
           bash .github/scripts/setup.sh
       - name: Generate ~/.clasp.json
         run: |
-          bash .github/scripts/setup_claspjson.sh
+          bash .github/scripts/create_clasp_credential.sh
       - name: Push
         run: |
           cd src
