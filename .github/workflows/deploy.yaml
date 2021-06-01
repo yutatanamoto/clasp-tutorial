@@ -42,5 +42,4 @@ jobs:
           clasp push --force
       - name: DEPLOY
         run: |
-          cd src
           clasp deploy --deploymentId $DEPLOYMENT_ID
