@@ -33,10 +33,10 @@ jobs:
 
       - name: Generate ~/.clasprc.json
         run: |
-          bash deployment/setup.sh
+          bash .github/scripts/setup.sh
       - name: Generate ~/.clasp.json
         run: |
-          bash deployment/setup_claspjson.sh
+          bash .github/scripts/setup_claspjson.sh
       - name: Push
         run: |
           cd src
